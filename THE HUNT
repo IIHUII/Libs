@@ -102,7 +102,7 @@ local ListLayout = Create("UIListLayout", Menu_Notifi, {
 
 function MakeNotifi(Configs)
   local Title = Configs.Title or "REDz HUB"
-  local text = Configs.Text or "Notificaأ§أ£o"
+  local text = Configs.Text or "Notifica§£o"
   local timewait = Configs.Time or 5
   
   local Frame1 = Create("Frame", Menu_Notifi, {
@@ -379,7 +379,7 @@ function MakeWindow(Configs)
   end)
   
   local Close_Button = Create("TextButton", ButtonsFrame, {
-    Text = "أ—",
+    Text = "—",
     TextYAlignment = "Bottom",
     TextColor3 = Configs_HUB.Cor_Text,
     Size = UDim2.new(0.5, 0, 1, 0),
