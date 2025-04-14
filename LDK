@@ -16,9 +16,9 @@ local redzlib = {
         ColorSequenceKeypoint.new(0.50, Color3.fromRGB(150, 30, 30)),  -- Vibrant middle red
         ColorSequenceKeypoint.new(1.00, Color3.fromRGB(55, 10, 10))   -- Elegant deep red
     }),
-    ["Color Hub 2"] = Color3.fromRGB(80, 15, 15),  -- Deep elegant red
+    ["Color Hub 2"] = Color3.fromRGB(240, 223, 223),  -- Deep elegant red
     ["Color Stroke"] = Color3.fromRGB(0, 0, 0),  -- Elegant glowing red
-    ["Color Theme"] = Color3.fromRGB(220, 0, 0),  -- Intense elegant red
+    ["Color Theme"] = Color3.fromRGB(22, 4, 219),  -- Intense elegant red
     ["Color Text"] = Color3.fromRGB(255, 255, 255),  -- Pure white
     ["Color Dark Text"] = Color3.fromRGB(250, 200, 200)  -- Soft warm gray
 		},
