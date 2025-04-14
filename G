@@ -13,14 +13,14 @@ local redzlib = {
 		Darker = {
     ["Color Hub 1"] = ColorSequence.new({
         ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 12, 55)),  -- Elegant deep red
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(245, 245, 245)),  -- Vibrant middle red
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 247))   -- Elegant deep red
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(32.5, 32.5, 32.5)),
+	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))
     }),
-    ["Color Hub 2"] = Color3.fromRGB(80, 15, 15),  -- Deep elegant red
-    ["Color Stroke"] = Color3.fromRGB(0, 0, 0),  -- Elegant glowing red
-    ["Color Theme"] = Color3.fromRGB(220, 0, 0),  -- Intense elegant red
-    ["Color Text"] = Color3.fromRGB(255, 255, 255),  -- Pure white
-    ["Color Dark Text"] = Color3.fromRGB(250, 200, 200)  -- Soft warm gray
+["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
+			["Color Stroke"] = Color3.fromRGB(166, 11, 0),
+			["Color Theme"] = Color3.fromRGB(88, 101, 242),
+			["Color Text"] = Color3.fromRGB(243, 243, 243),
+			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
