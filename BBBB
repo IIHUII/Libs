@@ -1186,7 +1186,7 @@ if TabConfig.IsMobile and isMobile then
         local Bar = Instance.new("Frame")
         Bar.Name = "SelectedBar"
         Bar.Parent = TabFrame
-        Bar.BackgroundColor3 = Color3.fromRGB(0, 162, 255)
+        Bar.BackgroundColor3 = Color3.fromRGB(245, 246, 247)
         Bar.BorderSizePixel = 0
         Bar.Size = UDim2.new(0, 0, 0, 3)
         Bar.Position = UDim2.new(0.5, -69, 1, 1.7)
@@ -1253,7 +1253,7 @@ AddConnection(
             local Bar = Instance.new("Frame")
             Bar.Name = "SelectedBar"
             Bar.Parent = TabFrame
-            Bar.BackgroundColor3 = Color3.fromRGB(0, 162, 255)
+            Bar.BackgroundColor3 = Color3.fromRGB(245, 246, 247)
             Bar.BorderSizePixel = 0
             Bar.Size = UDim2.new(0, 0, 0, 3)
             Bar.Position = UDim2.new(0.5, -69, 1, 1.7)
